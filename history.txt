@@ -1,0 +1,438 @@
+    1  sudo adduser ad vboxsf
+    2  ls
+    3  cd Desktop/
+    4  ;s
+    5  ls
+    6  cd ..
+    7  cd Documents/
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd ..
+   12  ls
+   13  bash ~/media/sf_work/anaconda/Anaconda3-2023.09-0-Linux-x86_64.sh 
+   14  bash media/sf_work/anaconda/Anaconda3-2023.09-0-Linux-x86_64.sh 
+   15  source ~/.bashrc
+   16  conda
+   17  conda info --envs
+   18  conda deactivate base
+   19  conda deactivate
+   20  conda activate base
+   21  ls
+   22  cd ..
+   23  ;s
+   24  ls
+   25  cd usr/
+   26  ls
+   27  cd ..
+   28  cd home/
+   29  ls
+   30  cd ad/
+   31  ls
+   32  cd D
+   33  echo $SHELL
+   34  sudo apt-get install git
+   35  nano
+   36  bash 
+   37  git
+   38  ls
+   39  cd ..
+   40  ;s
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd home/
+   45  ls
+   46  cd ..
+   47  l
+   48  ls
+   49  cd media/
+   50  ls
+   51  cd sf_work/
+   52  ls
+   53  cd python_course/
+   54  ls
+   55  cd shell-lesson-data/
+   56  ls
+   57  cd shell-lesson-data/
+   58  ;s
+   59  ls
+   60  pip install sl
+   61  sl
+   62  sudo apt install sl
+   63  ls
+   64  sl
+   65  ls
+   66  cd north-pacific-gyre/
+   67  ls
+   68  ls F
+   69  ls -F
+   70  cd ..
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd ..
+   77  ls
+   78  ls -f
+   79  ls -F
+   80  ls -F -l -h
+   81  ls --help
+   82  man ls
+   83  ls
+   84  cd github/
+   85  ls
+   86  cd ..
+   87  ls -F python_course/
+   88  ls -F python_course/shell-lesson-data/
+   89  ls -F python_course/shell-lesson-data/shell-lesson-data/
+   90  cd python_course/shell-lesson-data/shell-lesson-data/
+   91  ls -l -h
+   92  ls
+   93  cd exercise-data/
+   94  ls
+   95  head numbers.txt 
+   96  tail numbers.txt 
+   97  ls
+   98  ls -F -l
+   99  cd ...
+  100  cd //
+  101  cd ..
+  102  ls
+  103  c d..
+  104  cd ..
+  105  cd
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd ..
+  110  ls
+  111  cd media/sf_work/python_course/shell-lesson-data/shell-lesson-data/
+  112  ls
+  113  cd exercise-data/
+  114  ls
+  115  ls -a
+  116  ls -l -F -a
+  117  cd .
+  118  ls
+  119  cd
+  120  ls
+  121  cd ..
+  122  ls
+  123  cd media/sf_work/python_course/shell-lesson-data/shell-lesson-data/exercise-data/
+  124  ls
+  125  cd ..
+  126  ls -s
+  127  ls
+  128  ls -S
+  129  ls -s
+  130  cd exercise-data/
+  131  ;s
+  132  ls
+  133  ls -s
+  134  ls -S
+  135  ls -l 
+  136  ls -l -h
+  137  htop
+  138  sudo snap install htop
+  139  htop
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd north-pacific-gyre/
+  144  ls
+  145  ls -l -h -s -a
+  146  cd ..
+  147  ls
+  148  cd exercise-data/
+  149  ;ls
+  150  ;s
+  151  ls
+  152  cd writing/
+  153  ls
+  154  mkdir thesis
+  155  l
+  156  ls
+  157  ls -F thesis/
+  158  mkdir --help
+  159  mkdir -p ../project/data ../project/results
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd project/
+  164  ;s
+  165  ls
+  166  cd ..
+  167  ls
+  168  cd writing/
+  169  ;s
+  170  ls
+  171  cd thesis/
+  172  ;s
+  173  ls
+  174  nano draft.txt
+  175  ls
+  176  nano draft.txt
+  177  ls
+  178  head draft.txt 
+  179  nano draft.txt 
+  180  ls
+  181  head draft.txt 
+  182  cat
+  183  cat draft.txt 
+  184  cd ..
+  185  ls
+  186  head LittleWomen.txt 
+  187  less LittleWomen.txt 
+  188  ls
+  189  mv thesis/draft.txt thesis/quotes.txt
+  190  ls
+  191  cd thesis/
+  192  ls
+  193  cd ..
+  194  mv thesis/quotes.txt ..
+  195  ls
+  196  mv thesis/quotes.txt ../
+  197  ls
+  198  cd ..
+  199  ;s
+  200  ls
+  201  mv quotes.txt writing/
+  202  cd writing/
+  203  ls
+  204  cp quotes.txt thesis/quotations.txtr
+  205  ls
+  206  cd thesis/
+  207  ls
+  208  rn quotations.txtr quotations.txt
+  209  rm quotations.txtr 
+  210  cd ..
+  211  ls
+  212  cp quotes.txt thesis/quotations.txt
+  213  cd thesis/
+  214  ls
+  215  cd ..
+  216  ls
+  217  cp -r thesis thesis_backup
+  218  ls
+  219  ls thesis
+  220  ls thesis_backup/
+  221  rm thesis
+  222  rm thesis -r
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd alkanes/
+  227  ls
+  228  ls -l -h s
+  229  ls -l -h -s
+  230  wc cubane.pdb -l -h
+  231  wc cubane.pdb -l
+  232  wc cubane.pdb 
+  233  wc --help
+  234  wc *
+  235  wc * -l
+  236  wc * -l /4
+  237  wc * -l > lengths.txt
+  238  head lengths.txt 
+  239  cat --help
+  240  sort --help
+  241  ls
+  242  sort lengths.txt 
+  243  sort lengths.txt -n
+  244  sort lengths.txt -d
+  245  sort lengths.txt -n
+  246  sort lengths.txt -n > sorted_lengths.txt
+  247  head sorted_lengths.txt 
+  248  head lengths.txt "
+  249  echo The echo command prints text
+  250  echo "The echo command prints text"
+  251  echo hello >testfile01.txt
+  252  head testfile01.txt 
+  253  echo echo
+  254  ls
+  255  sort -n lengths.txt | head -n 3
+  256  sort -n lengths.txt | head -n 1
+  257  ls
+  258  wc -l *.pdb | sort -n 
+  259  wc -l *.pdb | sort -n |head -n 2
+  260  ls
+  261  cd ..
+  262  ls
+  263  cd ..
+  264  ;s
+  265  ls
+  266  cd north-pacific-gyre/
+  267  ls
+  268  wc -l *
+  269  wc -l *txt
+  270  tail NENE02018B
+  271  tail NENE02018B.txt
+  272  ls
+  273  wc -l *txt | sort -n | head -n 5
+  274  wc -l *Z.txt | sort -n | head -n 5
+  275  ls *A.txt *B.txt
+  276  ls
+  277  cd exercise-data/
+  278  ;ls
+  279  ls
+  280  cd creatures/
+  281  ls
+  282  head *.dat
+  283  for filename in basilisk.dat minotaur.dat unicorn.dat ; do echo $filename; head -n 2 $filename | tail -n 1; done
+  284  cd ..
+  285  for filename in creatures/ ; do echo $filename; head -n 2 $filename | tail -n 1; done
+  286  for filename in creatures ; do echo $filename; head -n 2 $filename | tail -n 1; done
+  287  $filename
+  288  for filename in basilisk.dat minotaur.dat unicorn.dat ; do echo $filename; head -n 2 $filename | tail -n 1; done
+  289  ls
+  290  cd creatures/
+  291  for filename in basilisk.dat minotaur.dat unicorn.dat ; do echo $filename; head -n 2 $filename | tail -n 1; done
+  292  $filename
+  293  for loop_variable in 0 1 2 3 4 5 6 7 8 9; do echo $loop_variable; done
+  294  for loop_variable in 0:10; do echo $loop_variable; done
+  295  for loop_variable in 0..10; do echo $loop_variable; done
+  296  for loop_variable in [0:10]; do echo $loop_variable; done
+  297  for loop_variable in {0..10}; do echo $loop_variable; done
+  298  ls
+  299  cd ..
+  300  ls
+  301  cd alkanes/
+  302  ls
+  303  for filename in  *.pdb; echo $filename
+  304  for filename in  *.pdb; do; echo $filename
+  305  for filename in *.dpb; for filename in *.pdb
+  306  for filename in *.dpb; do echo $filename; cat $filename > alkanes.pdb; done
+  307  for filename in *.pdb; do echo $filename; cat $filename > alkanes.pdb; done
+  308  ls
+  309  head alkanes.pdb 
+  310  cat alkanes.pdb
+  311  less alkanes.pdb 
+  312  for filename in *.pdb; do echo $filename; cat $filename >> alkanes.pdb; done
+  313  head alkanes.pdb 
+  314  ls
+  315  rm alkanes.pdb 
+  316  for filename in *.pdb; do echo $filename; cat $filename >> alkanes.pdb; done
+  317  rm alkanes.pdb 
+  318  for filename in *.pdb; do echo $filename; cat $filename >> alkanes.pdb; done
+  319  cd ..
+  320  ls
+  321  cd python-novice-gapminder-data/
+  322  ;d
+  323  ls
+  324  cd data/
+  325  ls
+  326  head *
+  327  jupyter lab
+  328  ls
+  329  head getting_started.ipynb 
+  330  jupyter lab
+  331  exit
+  332  jobs
+  333  bg 1
+  334  jobs
+  335  fg 1
+  336  exit
+  337  ls
+  338  cd ..
+  339  ls
+  340  cd ..
+  341  ls
+  342  cd python_course/
+  343  ls
+  344  jupyter lav
+  345  jupyter lab
+  346  jobs
+  347  fg 1
+  348  jobs
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd .
+  353  cd ..
+  354  ls
+  355  cd ..
+  356  ls
+  357  cd 
+  358  ls
+  359  cd D
+  360  cd Desktop/
+  361  ls
+  362  git config --global user.name --"Adwyness"
+  363  git config --global user.email --"adamjwyness@hotmail.com"
+  364  git config --global core.autocrlf input
+  365  git config --global core.editor "nano -w"
+  366  git config --init.defaultBranch main
+  367  git config --global init.defaultBranch main
+  368  git config --list
+  369  git config --global user.email "adamjwyness@hotmail.com"
+  370  git config --global user.name "Adwyness"
+  371  git config --list
+  372  git config --h
+  373  git config --help
+  374  history.txt < history
+  375  history | history.txt
+  376  history > history.txt
+  377  ls
+  378  cd ..
+  379  ls
+  380  cd ..
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd media/sf_work/
+  385  l
+  386  cd python_course/
+  387  ls
+  388  mkdir planets
+  389  cd planets/
+  390  git init
+  391  ls
+  392  ls -a
+  393  git checkout
+  394  git checkout -b main
+  395  cd
+  396  cd Desktop/
+  397  ls
+  398  mkdir planets
+  399  cd planets/
+  400  git init
+  401  ls -a
+  402  git checkout -b main
+  403  git status
+  404  nano mars.txt
+  405  head mars.txt 
+  406  ls
+  407  ls -a
+  408  history > history.txt
+  409  ls
+  410  git status
+  411  git add mars.txt 
+  412  git status
+  413  git commit -m "start notes on mars as a base"
+  414  git status
+  415  git log
+  416  nano mars.txt
+  417  ls
+  418  git status
+  419  history 
+  420  history.txt < history
+  421  ls
+  422  history.txt < history
+  423  history > history.txt
+  424  git status
+  425  git diff
+  426  git commit -m "add concerns about moons+wolfman"
+  427  git add mars.txt 
+  428  git commit -m "add concerns about moons+wolfman"
+  429  git diff
+  430  nano mars.txt 
+  431  git diff
+  432  git add mars.txt 
+  433  git diff
+  434  git diff --staged
+  435  git commit
+  436  git commit -m "discuss concerns about mummy issues"
+  437  git status
+  438  history > history.txt
